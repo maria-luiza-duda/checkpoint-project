@@ -1,4 +1,4 @@
-const { Categoria, sequelize } = require('../models');
+/* const { Categoria, sequelize } = require('../models');
 const { v4:uuidv4 } = require('uuid');
 
 const categoriasController = {
@@ -37,4 +37,4 @@ const categoriasController = {
 
 }
 
-module.exports = categoriasController;
+module.exports = categoriasController; */

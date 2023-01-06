@@ -1,4 +1,4 @@
-module.exports = (sequelize, DataTypes) =>{
+/* module.exports = (sequelize, DataTypes) =>{
     const Categoria = sequelize.define(
         'Categoria', {
             id_produtos: DataTypes.STRING,
@@ -14,4 +14,4 @@ module.exports = (sequelize, DataTypes) =>{
     };
 
     return Categoria;
-};
+}; */

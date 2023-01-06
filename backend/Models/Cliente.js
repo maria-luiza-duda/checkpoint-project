@@ -1,25 +1,26 @@
+const { Model, DataTypes} = require('sequelize');
+
 module.exports = (sequelize, DataTypes) =>{
     
     const Cliente = sequelize.define(
         'Cliente', {
-            id_clientes: DataTypes.STRING,
-            nome_fantasia: DataTypes.STRING,
+            id_cliente: DataTypes.STRING,
+            nome: DataTypes.STRING,
             razao_social: DataTypes.STRING,
-            cnpj: DataTypes.STRING,
-            empresa_matriz: DataTypes.STRING,
-            logradouro: DataTypes.STRING,
+            cpf_cnpj: DataTypes.STRING,
+            rua: DataTypes.STRING,
             numero: DataTypes.STRING,
             complemento: DataTypes.STRING,
             bairro: DataTypes.STRING,
             cidade: DataTypes.STRING,
-            uf: DataTypes.STRING,
             cep: DataTypes.STRING,
+            uf: DataTypes.STRING,
             telefone: DataTypes.STRING,
             whatsapp: DataTypes.STRING,
             email: DataTypes.STRING,
             site: DataTypes.STRING
         }, {
-            tableName: "clientes",
+            tableName: "cliente",
             timestamps: false
         }
     );

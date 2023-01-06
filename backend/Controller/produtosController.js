@@ -1,4 +1,4 @@
-const { request, response } = require('express');
+/* const { request, response } = require('express');
 const { Cliente, Produto, sequelize } = require('../models/Produto');
 const { v4: uuidv4 } = require('uuid');
 
@@ -65,4 +65,4 @@ const produtosController = {
 
 }
 
-module.exports = produtosController;
+module.exports = produtosController; */

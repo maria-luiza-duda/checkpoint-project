@@ -1,4 +1,4 @@
-module.exports = (sequelize, DataTypes) =>{
+/* module.exports = (sequelize, DataTypes) =>{
     const Produto = sequelize.define(
         'Produto', {
             id_clientes: DataTypes.STRING,
@@ -17,4 +17,4 @@ module.exports = (sequelize, DataTypes) =>{
     };
 
     return Produto;
-};
+}; */
